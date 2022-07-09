@@ -1,0 +1,15 @@
+.base_second {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    font-weight: lighter;
+}
+.base_third {
+    width: 65%;
+    margin: auto;
+    font-family: inherit;
+    font-weight: lighter;
+}
+.light{
+    font-weight: 350;
+}

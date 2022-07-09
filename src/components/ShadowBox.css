@@ -1,0 +1,18 @@
+.heading {
+    text-align: left;
+    color: rgba(31, 100, 157, 0.952);
+}
+.detail {
+    width: 85%;
+    margin: auto;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    background-color: whitesmoke;
+    background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 15px 15px 25px 15;
+}

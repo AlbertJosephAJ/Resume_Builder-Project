@@ -1,0 +1,41 @@
+.App {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  background-image: url("../src/images/bg.jpg");
+}
+.App2{
+  margin: auto;
+  width: 65%;
+  
+}
+.App1 {
+  padding: 5px 5px 5px 5px;
+  background-color: #fff;
+  color: rgb(98, 92, 92);
+  background-image: repeating-linear-gradient(to right, #f0ede8, #dcdfdf);
+}
+.seven h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.seven h1:after,
+.seven h1:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #3dcbdb;
+  border-top: 1px solid #3d65d3;
+  height: 5px;
+  background-color: #f8f8f8;
+}
